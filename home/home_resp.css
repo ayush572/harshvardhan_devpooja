@@ -96,6 +96,59 @@
     }
   }
 
+@media (max-width: 768px){
+    /* Vision part */
+    /* #vision{
+        height: 10vh;
+        overflow-y: hidden;
+    } */
+    #vision{
+        height: 200vh;
+        overflow-y: hidden;
+        margin-bottom: 0;
+    }
+    #vision .vision
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #vision .vision .img_Section{
+        height: 40vh;
+        width: 100%;
+        z-index: 0; 
+    }
+    #vision .vision .img2{
+        height: 0;
+        margin: 0;
+        width: 0;
+    }
+    #vision .img_section .img3{
+        height: 0;
+        margin: 0;
+        width: 0;
+    }
+    #vision .img1{
+        height: 50%;
+        width: 100vw;
+        margin: 0% 0%;
+        z-index: 0;
+    }
+    #vision .vision .content{
+        z-index: 0;
+        margin-top: 100px;
+        width: 100vw;
+    }
+    
+    #vision .vision_data{
+        font-size: 15px;
+    }
+    #vision .button2{
+        margin-top: 14px;
+        margin-left: 150px;
+    }
+    
+}
+
 @media (max-width:470px) {
 
     /* footer part  */
